@@ -8,17 +8,12 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 
-/**
- * Main entry point of the program.
- *
- * @version 1.1.1
- */
 public class Main {
     public static void main(String[] args) {
         System.out.println();
 
         try {
-            // Parse the ServerURL argument
+          
             URL serverUrl = new URI("http://localhost:80").toURL();
             if (args.length == 1) serverUrl = new URI(args[0]).toURL();
 
