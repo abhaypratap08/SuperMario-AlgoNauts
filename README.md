@@ -7,14 +7,13 @@ gameplay with challenging advance levels.
 
 ## Features
 
-- Classic platformer mechanics: running, jumping, and enemy encounters  
-- Algorithmic puzzles integrated into the gameplay  
+- Classic platformer mechanics: running, jumping, and enemy encounters   
 - Multiple challenging levels  
 - Educational and entertaining experience  
 
 ## Technology Stack
 
-- Java (or specify your tech stack here, e.g., Java + JavaFX, or HTML/CSS/JS, etc.)  
+- Java 
 - Structured project folders for easy navigation and development
 
 ## Project Structure
