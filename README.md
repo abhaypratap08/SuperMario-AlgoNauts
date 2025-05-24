@@ -1,42 +1,51 @@
-# Java SuperMario ⭐
+# SuperMario-AlgoNauts
 
-<div>
+SuperMario-AlgoNauts is a retro-style platformer game inspired by the 
+classic Super Mario series, developed by **Team AlgoNauts**. 
+This game uniquely combines traditional platformer 
+gameplay with challenging advance levels.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/74C17N3P7UN3/SuperMario?style=for-the-badge)
-![GitHub release](https://img.shields.io/github/v/release/74C17N3P7UN3/SuperMario?include_prereleases&style=for-the-badge&color=blue)
-![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/74C17N3P7UN3/SuperMario/total?style=for-the-badge&color=blue)
+## Features
 
-![GitHub license](https://img.shields.io/badge/license-mit-blue?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/74C17N3P7UN3/SuperMario?style=for-the-badge)
-![GitHub pages](https://img.shields.io/github/deployments/74C17N3P7UN3/SuperMario/github-pages?style=for-the-badge&label=javadoc)
+- Classic platformer mechanics: running, jumping, and enemy encounters  
+- Algorithmic puzzles integrated into the gameplay  
+- Multiple challenging levels  
+- Educational and entertaining experience  
 
-</div>
+## Technology Stack
 
-## How to run the game
+- Java (or specify your tech stack here, e.g., Java + JavaFX, or HTML/CSS/JS, etc.)  
+- Structured project folders for easy navigation and development
 
-### 🕹️ Java application
-1. Download the latest `.jar executable` from here: [/releases](https://github.com/74C17N3P7UN3/SuperMario/releases/latest)
-2. Download `OpenJDK 21` from here: [https://jdk.java.net/21](https://jdk.java.net/21)
-3. Extract the JDK and go into the `openjdk-21.0.2\bin` folder
-4. Open the command prompt and insert the command below
+## Project Structure
 
-```
-java.exe -jar <path_to_jar> [external_server_url]
-```
+SuperMario-AlgoNauts/
+│
+├── src/ # Source code
+├── lib/ # External libraries or dependencies
+├── docs/ # Documentation and game design docs
+├── bin/ # Compiled output (if any)
+└── README.md # This file
 
-### 💽 PHP/SQL server
-If you want to be able to save your scores, you will need to host a web server.\
-The easiest way, is to setup [XAMPP](https://www.apachefriends.org/download.html) for hosting the PHP server and the SQL database.\
-Make sure to download the *web folder* from the [source code](https://github.com/74C17N3P7UN3/SuperMario/archive/refs/heads/main.zip) too before moving on.
+bash
+Copy code
 
-* Once installed, open the program and start the `Apache` and `MySQL` modules
-* Then click on `📂 explorer` in the right panel to open XAMPP's root folder
-* Go into the `htdocs` folder and delete its contents before pasting the files contained in the *web folder*
-* Back to the program, click on `📟 shell` in the right panel and type `mysql -u root`
-* Finally, paste the contents of the [`commands.sql`](https://github.com/74C17N3P7UN3/SuperMario/blob/main/web/commands.sql) file in the terminal and close it
+## Getting Started
 
-## ✍️ Authors
+1. **Clone the repository:**
 
-* [@74C17N3P7UN3](https://github.com/74C17N3P7UN3) - Leonardo
-* [@TheInfernalNick](https://github.com/TheInfernalNick) - Nicolò
-* [@TOSAT0](https://github.com/TOSAT0) - Michele
+   ```bash
+   git clone https://github.com/yourusername/SuperMario-AlgoNauts.git
+   cd SuperMario-AlgoNauts
+Open the project in your preferred IDE (e.g., IntelliJ IDEA, VS Code).
+
+Run the project by executing the main class inside the src folder.
+
+Contribution
+Contributions are welcome! Feel free to fork the repo, create feature branches, and submit pull requests. Please follow the coding standards and write clear commit messages.
+
+License
+This project is intended for academic and personal use. Please see the LICENSE file for more details.
+
+Enjoy playing and learning with SuperMario-AlgoNauts!
+Team AlgoNauts
