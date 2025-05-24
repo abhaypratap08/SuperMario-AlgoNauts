@@ -36,3 +36,8 @@ out/
 lib/
 *.class
 *.iml
+.idea/
+out/
+lib/
+*.class
+*.iml

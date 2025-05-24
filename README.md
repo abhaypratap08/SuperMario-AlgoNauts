@@ -1,5 +1,6 @@
 # SuperMario-AlgoNauts
 
+<<<<<<< HEAD
 SuperMario-AlgoNauts is a retro-style platformer game inspired by the 
 classic Super Mario series, developed by **Team AlgoNauts**. 
 This game uniquely combines traditional platformer 
@@ -48,3 +49,24 @@ This project is intended for academic and personal use. Please see the LICENSE f
 
 Enjoy playing and learning with SuperMario-AlgoNauts!
 Team AlgoNauts
+=======
+🚀 A platformer game inspired by Super Mario, developed with a blend of classic game mechanics and algorithmic challenges!
+
+## 🧠 Project Highlights
+
+- 🎮 Retro-style platformer gameplay  
+- 🧩 Integrated algorithmic puzzles to unlock levels  
+- 💻 Developed using Java (or mention your tech stack)  
+- 🌍 Designed for educational and entertainment purposes  
+
+## 📁 Project Structure
+
+```bash
+.idea/           # IDE-specific files  
+docs/            # Documentation files  
+lib/             # External libraries  
+out/             # Compiled outputs  
+src/             # Source code  
+web/             # Web assets (if any)
+
+>>>>>>> 9ce5b57 (Initial commit: SuperMario-AlgoNauts project)
