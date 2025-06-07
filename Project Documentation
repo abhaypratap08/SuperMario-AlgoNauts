@@ -1,0 +1,259 @@
+# SuperMario-AlgoNauts Project Documentation
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Technology Stack](#technology-stack)
+4. [Architecture](#architecture)
+5. [Project Structure](#project-structure)
+6. [Getting Started](#getting-started)
+7. [Development Setup](#development-setup)
+8. [Code Organization](#code-organization)
+9. [Documentation](#documentation)
+10. [Contribution Guidelines](#contribution-guidelines)
+11. [License](#license)
+12. [Team](#team)
+
+## Project Overview
+
+SuperMario-AlgoNauts is a retro-style platformer game inspired by the classic Super Mario series, developed by **Team AlgoNauts**. This innovative project uniquely combines traditional platformer gameplay with challenging algorithmic puzzles, creating an educational and entertaining gaming experience.
+
+The game serves as both a nostalgic platformer and an educational tool, designed to engage players in algorithmic thinking while enjoying classic gaming mechanics.
+
+### Project Highlights
+- 🎮 Retro-style platformer gameplay reminiscent of classic Super Mario
+- 🧩 Integrated algorithmic puzzles to unlock levels and progress
+- 💻 Robust Java-based implementation with clean architecture
+- 🌍 Designed for both educational and entertainment purposes
+- 📚 Comprehensive documentation and modular code structure
+
+## Features
+
+### Core Gameplay Features
+- **Classic Platformer Mechanics**: Traditional running, jumping, and enemy encounter systems
+- **Multiple Challenging Levels**: Progressively difficult stages that test both gaming skills and algorithmic thinking
+- **Algorithmic Puzzles**: Integrated challenges that require problem-solving skills to unlock new areas
+- **Educational Experience**: Learning-focused gameplay that teaches algorithmic concepts through interactive challenges
+
+### Technical Features
+- **Modular Architecture**: Well-organized codebase following MVC design patterns
+- **Comprehensive Documentation**: Full Javadoc documentation for all components
+- **Cross-platform Compatibility**: Java-based implementation ensuring broad device support
+- **Web Integration**: Additional web assets for enhanced functionality
+
+## Technology Stack
+
+### Primary Technologies
+- **Java**: Core programming language (98.3% of codebase)
+- **PHP**: Supporting scripts and web functionality (1.7% of codebase)
+
+### Development Tools
+- **IDE Support**: Compatible with IntelliJ IDEA, VS Code, and other major IDEs
+- **Documentation**: Javadoc for comprehensive API documentation
+- **Version Control**: Git-based development workflow
+
+## Architecture
+
+The SuperMario-AlgoNauts project follows a modular architecture based on the Model-View-Controller (MVC) design pattern, ensuring separation of concerns and maintainable code structure.
+
+### Design Patterns
+- **MVC Architecture**: Clear separation between game logic, user interface, and control flow
+- **Modular Design**: Component-based structure for easy maintenance and extension
+- **Educational Framework**: Structured approach to integrate learning elements with gameplay
+
+## Project Structure
+
+```
+SuperMario-AlgoNauts/
+│
+├── .idea/                  # IDE-specific configuration files
+├── docs/                   # Comprehensive documentation
+│   ├── control/           # Controller documentation
+│   ├── index-files/       # Documentation index files
+│   ├── legal/             # Legal documentation
+│   ├── main/              # Main class documentation
+│   ├── model/             # Model class documentation
+│   ├── net/               # Network component documentation
+│   ├── resources/         # Resource documentation
+│   ├── script-dir/        # Script documentation
+│   ├── utils/             # Utility class documentation
+│   ├── view/              # View component documentation
+│   └── *.html             # Javadoc HTML files
+├── lib/                   # External libraries and dependencies
+├── out/                   # Compiled output files
+├── src/                   # Source code directory
+│   ├── control/           # Game control logic
+│   ├── main/              # Main application entry point
+│   ├── media/             # Game assets and media files
+│   ├── model/             # Game data models and business logic
+│   ├── net/               # Network and connectivity components
+│   ├── utils/             # Utility classes and helper functions
+│   └── view/              # User interface and rendering components
+├── web/                   # Web assets and components
+├── .gitignore            # Git ignore configuration
+├── LICENSE               # Project license file
+└── README.md             # Project readme file
+```
+
+## Getting Started
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- Compatible IDE (IntelliJ IDEA, VS Code, Eclipse, etc.)
+- Git for version control
+
+### Installation Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/abhaypratap08/SuperMario-AlgoNauts.git
+   cd SuperMario-AlgoNauts
+   ```
+
+2. **Open in IDE**
+   - Import the project into your preferred Java IDE
+   - Ensure the project SDK is properly configured
+
+3. **Build and Run**
+   - Locate the main class in the `src/main/` directory
+   - Execute the main class to start the game
+   - Follow any additional setup instructions in the IDE
+
+## Development Setup
+
+### IDE Configuration
+- **IntelliJ IDEA**: Import as a Java project, configure JDK version
+- **VS Code**: Install Java Extension Pack, configure workspace settings
+- **Eclipse**: Import as existing Java project, set build path
+
+### Dependencies
+- External libraries are managed in the `lib/` directory
+- Ensure all dependencies are properly included in the classpath
+- Refer to documentation for specific library requirements
+
+## Code Organization
+
+### Package Structure
+The source code is organized into several key packages:
+
+#### Control Package (`src/control/`)
+- Contains game control logic and input handling
+- Manages game state transitions and user interactions
+- Implements controller components of the MVC pattern
+
+#### Main Package (`src/main/`)
+- Entry point for the application
+- Contains the main class and initialization logic
+- Handles application startup and configuration
+
+#### Media Package (`src/media/`)
+- Stores game assets including images, sounds, and animations
+- Organized for efficient resource loading and management
+- Supports various media formats required by the game
+
+#### Model Package (`src/model/`)
+- Implements game data models and business logic
+- Contains entity classes for game objects
+- Manages game state and algorithmic puzzle logic
+
+#### Net Package (`src/net/`)
+- Handles network communication and connectivity features
+- Supports multiplayer or online functionality if applicable
+- Manages data exchange and synchronization
+
+#### Utils Package (`src/utils/`)
+- Contains utility classes and helper functions
+- Provides common functionality used across the application
+- Includes mathematical operations, file handling, and other utilities
+
+#### View Package (`src/view/`)
+- Implements user interface and rendering components
+- Manages game graphics and visual presentation
+- Handles screen rendering and animation systems
+
+## Documentation
+
+### Javadoc Documentation
+The project includes comprehensive Javadoc documentation located in the `docs/` directory:
+
+- **Complete API Documentation**: All classes and methods are thoroughly documented
+- **HTML Format**: Easy-to-navigate web-based documentation
+- **Cross-references**: Linked documentation for better understanding
+- **Search Functionality**: Built-in search capabilities for quick reference
+
+### Accessing Documentation
+- Open `docs/index.html` in a web browser
+- Navigate through packages and classes using the sidebar
+- Use the search functionality to find specific methods or classes
+
+## Contribution Guidelines
+
+### How to Contribute
+1. **Fork the Repository**: Create your own fork of the project
+2. **Create Feature Branch**: Develop new features in dedicated branches
+3. **Follow Coding Standards**: Maintain consistent code style and documentation
+4. **Write Clear Commit Messages**: Use descriptive commit messages
+5. **Submit Pull Request**: Create a pull request with detailed description of changes
+
+### Coding Standards
+- Follow Java naming conventions
+- Maintain comprehensive Javadoc comments
+- Ensure code modularity and reusability
+- Write unit tests for new functionality
+- Maintain backward compatibility where possible
+
+### Development Workflow
+- Use feature branches for new development
+- Regular commits with meaningful messages
+- Code review process for all changes
+- Integration testing before merging
+
+## License
+
+This project is intended for **academic and personal use**. Please refer to the LICENSE file in the repository for complete terms and conditions.
+
+### Usage Rights
+- Academic research and educational purposes
+- Personal learning and skill development
+- Non-commercial educational projects
+
+### Restrictions
+- Commercial use may require additional permissions
+- Redistribution must maintain original license terms
+- Attribution to Team AlgoNauts is required
+
+## Team
+
+**Team AlgoNauts** - The development team behind SuperMario-AlgoNauts
+
+### Project Leadership
+- **Primary Developer**: abhaypratap08 (GitHub username)
+- **Team**: AlgoNauts collective
+
+### Contact Information
+- **Repository**: [https://github.com/abhaypratap08/SuperMario-AlgoNauts](https://github.com/abhaypratap08/SuperMario-AlgoNauts)
+- **Issues**: Use GitHub Issues for bug reports and feature requests
+
+---
+
+## Additional Resources
+
+### Learning Objectives
+This project serves as an excellent learning resource for:
+- Java game development principles
+- MVC architecture implementation
+- Algorithm design and problem-solving
+- Software project organization
+- Documentation best practices
+
+### Future Enhancements
+Potential areas for expansion include:
+- Additional algorithmic challenges
+- Multiplayer functionality
+- Enhanced graphics and animations
+- Mobile platform support
+- Advanced AI opponents
+
+---
+
+*This documentation is maintained by Team AlgoNauts and reflects the current state of the SuperMario-AlgoNauts project. For the most up-to-date information, please refer to the project repository.*
